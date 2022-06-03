@@ -1,4 +1,4 @@
-lib = loadstring(game:HttpGet("https://pastebin.com/raw/3eVRY4B4"))()
+lib = loadstring(game:HttpGet"https://pastebin.com/raw/9Cau6Xvm")()
 local win = lib:CreateWindow("STAR", Vector2.new(492, 598), Enum.KeyCode.RightShift)
 
 local tab1 = win:CreateTab("main")
@@ -21,7 +21,7 @@ local button = sector1:AddButton("enable star", function()
 
     },
     Tracer = {
-        TracerThickness = 3.5,
+        TracerThickness = 3.8,
         TracerTransparency = 1,
         TracerColor = Color3.fromRGB(0,255,0)
     }
