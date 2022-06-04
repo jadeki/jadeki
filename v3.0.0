@@ -1,5 +1,5 @@
 lib = loadstring(game:HttpGet"https://pastebin.com/raw/9Cau6Xvm")()
-local win = lib:CreateWindow("STAR", Vector2.new(492, 598), Enum.KeyCode.RightShift)
+local win = lib:CreateWindow("Da Hood", Vector2.new(492, 598), Enum.KeyCode.V)
 
 local tab1 = win:CreateTab("main")
 
@@ -7,7 +7,7 @@ local sector1 = tab1:CreateSector("main","left")
 
          
 
-local button = sector1:AddButton("enable star", function()
+local button = sector1:AddButton("AIMBOT", function()
 
 
     local configs = {
@@ -15,7 +15,7 @@ local button = sector1:AddButton("enable star", function()
         Enabled = true,
         Aimlockkey = "q",
         Prediction = 0.157,
-        Aimpart = 'UpperTorso',
+        Aimpart = 'HumanoidRootPart',
         Notifications = true,
         AirshotFunc = true
 
@@ -43,7 +43,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             if configs.Main.Notifications == true then
                 Plr = FindClosestPlayer()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "star | <3",
+                    Title = "Hol  ' /lockers",
                     Text = "",
                     Icon = "http://www.roblox.com/asset/?id=6917008796"
                 })
@@ -53,7 +53,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             configs.Main.Enabled = true
             if configs.Main.Notifications == true then
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "star | <3",
+                    Title = "Hol  ' /lockers",
                     Text = "" .. tostring(LocalPlayer.Character.Humanoid.DisplayName),
                     Icon = "http://www.roblox.com/asset/?id=6917008796"
                 })
