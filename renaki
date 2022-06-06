@@ -1,9 +1,9 @@
 lib = loadstring(game:HttpGet"https://pastebin.com/raw/9Cau6Xvm")()
 local win = lib:CreateWindow("Da Hood", Vector2.new(492, 598), Enum.KeyCode.V)
 
-local tab1 = win:CreateTab("main")
+local tab1 = win:CreateTab("LEGIT")
 
-local sector1 = tab1:CreateSector("main","left")
+local sector1 = tab1:CreateSector("LEGIT","left")
 
          
 
